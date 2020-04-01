@@ -12,7 +12,7 @@ Vejo muitas pessoas que se frustram com essa distribuição ao tentar instala-l�
 
 Por mais que esse tutorial se tenha um "4noobs" no nome, se você não tem uma bagagem um pouco abrangente com o sistema Linux **EU** não recomendo que você utilize essa distribuição logo de cara devido a proposta do próprio sistema, mas caso esteja disposto a investir tempo para aprender esse novo sistema e aceitar a prosta passada pelo sistema seje livre e nos acompanhe nesse tutorial.
 
-#### Por que eu não gostaria de usar o Arch?
+#### Por que eu não gostaria de usar o Arch ?
 
 Citando alguns tópicos da resposta dada pela Wiki da distribuição. Você pode **não** querer usar o Arch, se:
 
@@ -20,7 +20,7 @@ Citando alguns tópicos da resposta dada pela Wiki da distribuição. Você pode
 * você precisa de suporte a uma arquitetura diferente de x86_64.
 * você acredita que um sistema operacional deve se autoconfigurar, vir pronto para usar e incluir um conjunto padrão completo de softwares e ambiente de área de trabalho na mídia de instalação.
 
-#### A quais arquiteturas o Arch dá suporte?
+#### A quais arquiteturas o Arch dá suporte ?
 
 O Arch só oferece suporte à arquitetura x86_64 (algumas vezes chamada de amd64).
 
