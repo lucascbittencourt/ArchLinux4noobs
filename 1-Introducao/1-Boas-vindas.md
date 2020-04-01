@@ -10,7 +10,7 @@ Vejo muitas pessoas que se frustram com essa distribuição ao tentar instala-l�
 
 #### Eu sou um completo iniciante no GNU/Linux. Eu deveria usar o Arch?
 
-Por mais que esse tutorial se tenha um "4noobs" no nome, se você não tem uma bagagem um pouco abrangente com o sistema Linux **EU** não recomendo que você utilize essa distribuição logo de cara devido a proposta do próprio sistema, mas caso esteja disposto a investir tempo para aprender esse novo sistema e aceitar a prosta passada pelo sistema seje livre e nos acompanhe nesse tutorial.
+Por mais que esse tutorial tenha um "4noobs" no nome, se você não tem uma bagagem um pouco abrangente com o sistema Linux **EU** não recomendo que você utilize essa distribuição logo de cara devido a proposta do próprio sistema, mas caso esteja disposto a investir tempo para aprender esse novo sistema e aceitar a prosta passada pelo sistema seje livre e nos acompanhe nesse tutorial.
 
 #### Por que eu não gostaria de usar o Arch ?
 
