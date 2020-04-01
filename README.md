@@ -17,28 +17,30 @@
 ### Introdução
 
 1. [Boas Vindas](./1-Introducao/1-Boas-vindas.md)
-2. [O que é ArchLInux](./1-Introducao/2-ArchLinux.md)
+2. [O que é ArchLInux ?](./1-Introducao/2-ArchLinux.md)
 
 ### Pré-Instalação
 
-1. [Primeiros passos](/2-Ambiente/1-Editores-e-plugins.md)
+1. [Primeiros passos](./2-PreInstalacao/1-Passos.md)
 
 ### Instalação
 
-1. [Pacotes essênciais](/3-Basico/1-Saida.md)
+1. [Pacotes essênciais](./3-Instalacao/1-Essencial.md)
 
 ### Configuração
 
-1. [Funções de Saida](/3-Basico/1-Saida.md)
+1. [Fstab, Time zone e localização](./4-Configuracao/1-Fstab.md)
+2. [Network e usuários](./4-Configuracao/2-Network.md)
+3. [Gerenciador de boot](./4-Configuracao/3-Grub.md)
 
 ### Interfaces Gráficas
 
-1. [Funções de Saida](/3-Basico/1-Saida.md)
+1. [Xfce, Gnome e KDE](./5-GUI/1-GUI.md)
 
 ## Como Contribuir
 
 Contribuições fazem com que a comunidade open source seja um lugar incrível para aprender, inspirar e criar. Todas contribuições
-são **extremamente apreciadas**
+são **extremamente apreciadas**.
 
 1. Realize um Fork do projeto
 2. Crie um branch com a nova feature (`git checkout -b feature/exemploFeature`)
