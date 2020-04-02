@@ -32,12 +32,12 @@ E agora vamos gerar nosso arquivo de configurações do boot:
 
 E pronto ja temos nosso grub instalado com sucesso. Se você deseja fazer dual boot com outro OS você precisa instalar o pacote `os-prober`.
 
-## XORG
+## Xorg
 
-Para instalarmos qualquer interface gráfica nós precisamos instalar o XORG e fazer isto é bem simples.
+Para instalarmos qualquer interface gráfica nós precisamos instalar o Xorg e fazer isto é bem simples.
 
 ```console
-# pacman -S xorg-server
+# pacman -S xorg xorg-server xorg-drivers mesa libgl
 ```
 
 Pronto, ja instalamos o XORG.
@@ -49,25 +49,25 @@ Vamos instalar os drivers de video agora.
 ### Intel
 
 ```console
-# pacman -S xf86-video-intel libgl mesa
+# pacman -S xf86-video-intel
 ```
 
 ### Nvidia
 
 ```console
-# pacman -S nvidia nvidia-libgl mesa
+# pacman -S nvidia nvidia-libgl
 ```
 
 ### AMD
 
 ```console
-# pacman -S xf86-video-amdgpu mesa
+# pacman -S xf86-video-amdgpu
 ```
 
 ### Virtual box
 
 ```console
-# pacman -S virtualbox-guest-utils virtualbox-guest-modules-arch mesa mesa-libgl
+# pacman -S virtualbox-guest-utils virtualbox-guest-modules-arch mesa-libgl
 ```
 
 ## Audio
@@ -75,7 +75,7 @@ Vamos instalar os drivers de video agora.
 Vamos instalar pacote que vai cuidar do nosso audio o `pulseaudio`.
 
 ```console
-# pacman -S pulseaudio
+# pacman -S pulseaudio pulseaudio-alsa
 ```
 
 Se você tiver problemas com chiados ou ruídos instale o pacote `pulseeffects` e habilite a função de inicializar junto ao sistema.

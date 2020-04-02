@@ -47,7 +47,7 @@ Para definirmos a senha do usuário root é bem simples, basta utilizar commando
 Agora vamos criar nosso usuário e definir uma senha a ele.
 
 ```console
-# useradd -m -g users -G wheel he4rt
+# useradd -m he4rt
 # passwd he4rt
 ```
 

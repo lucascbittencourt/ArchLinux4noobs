@@ -52,5 +52,5 @@ Pronto com o gdm instalado e habilitado, podemos instalar o Gnome.
 # pacman -S gnome gnome-terminal nautilus gnome-tweaks gnome-control-center adwaita-icon-theme
 ```
 
-Agora que você ja escolheu sua interface gráfica e instalou, basta reiniciar a maquina e remover a mídia de instalação e pronto você acabou de instalar o ArchLinux. Espero que tenha gostado do passo a passo !
+Agora que você ja escolheu sua interface gráfica e instalou, basta precionar `CTRL + D` para desmontar a partição, reiniciar a maquina, remover a mídia de instalação e pronto você acabou de instalar o ArchLinux. Espero que tenha gostado do passo a passo !
 

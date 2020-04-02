@@ -37,7 +37,7 @@ Nós vamos instalar os pacotes base, linux e linux-firmware dentro da pasta onde
 * O pacote *linux* é o nosso kernel, então se você deseja instalar outro kernel substitua-o.
 * O pacote *linux-firmware* não contém pacotes específicos, então se deseja instalar algum firmware em especial você deverá passar juntamente a esta lista de pacote.
 
-Esta parte costuma demorar um pouco, isso vai de acordo com a sua internet, então enquanto você espera baixar e instalar os pacotes da uma passada na [He4rt Developers](discord.io/He4rt) ou da uma olhada nos outros tutoriais [4noobs](https://github.com/he4rt/4noobs) temos contéudo de qualidade para vocês e te vejo no [próximo arquivo](../4-Configuracao/1-Fstab.md) :)
+Esta parte costuma demorar um pouco, isso vai de acordo com a sua internet, então enquanto você espera baixar e instalar os pacotes da uma passada na [He4rt Developers](https://discord.io/He4rt) ou da uma olhada nos outros tutoriais [4noobs](https://github.com/he4rt/4noobs) temos contéudo de qualidade para vocês e te vejo no [próximo arquivo](../4-Configuracao/1-Fstab.md) :)
 
 ---
 
