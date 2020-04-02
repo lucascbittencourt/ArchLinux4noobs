@@ -37,6 +37,8 @@ pacman -Syu | atualiza todos os pacotes do sistema
 pacman -R *pacote* | Remove um pacote
 pacman -RS *pacote* | Remove um pacote e suas dependências que não são exigidas por outro pacote
 
+Agora que sabemos o que é o ArchLinux podemos ir ao [próximo arquivo](../2-PreInstalacao/1-Passos.md).
+
 ---
 
 ## Referências

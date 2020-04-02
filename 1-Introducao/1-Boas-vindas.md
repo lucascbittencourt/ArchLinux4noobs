@@ -28,4 +28,4 @@ O Arch só oferece suporte à arquitetura x86_64 (algumas vezes chamada de amd64
 
 A partir do momento que você decide instalar esta distribuição a [Wiki](https://wiki.archlinux.org/index.php/Main_page_(Portugu%C3%AAs)) será sua fiel companheira nessa jornada! É lá que encontraremos todas as informações para configurar o ArchLinux, então você tem que "gostar" de ler manuais.
 
-Tendo tudo isso em mente podemos prosseguir, te vejo no próximo arquivo :)
+Tendo tudo isso em mente podemos prosseguir, te vejo no [próximo arquivo](./2-ArchLinux.md) :)

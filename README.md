@@ -31,7 +31,7 @@
 
 1. [Fstab, Time zone e localização](./4-Configuracao/1-Fstab.md)
 2. [Network e usuários](./4-Configuracao/2-Network.md)
-3. [Gerenciador de boot](./4-Configuracao/3-Grub.md)
+3. [Grub, Xorg, Drivers Video e Audio](./4-Configuracao/3-Grub.md)
 
 ### Interfaces Gráficas
 
