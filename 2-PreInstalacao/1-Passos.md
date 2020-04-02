@@ -80,7 +80,7 @@ Algo desse tipo pode retornar para você:
 
 ![gpt](../images/PreInstalacao/gpt.png)
 
-Eu recomendo utilizar o gpt mas caso queira algum outro sinta-se livre.
+O é gpt para UEFI e dos para BIOS.
 
 *Obs: eu prefiro usar o cfdisk para fazer as partições mas se quiser usar o fdisk não tem problema.*
 
