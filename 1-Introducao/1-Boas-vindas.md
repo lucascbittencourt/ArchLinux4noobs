@@ -1,6 +1,6 @@
 # 01 - Boas vindas
 
-Sejam bem vindos ao tutorial de instalação do ArchLinux da [He4rt Developers](discord.io/He4rt), aqui nos vamos desbravar essa distribuição temida por alguns e amada por muitos usuários do nosso querido pinguim e no final ter aquele sorriso que finalmente consguimos instalar esta magnifica distruibuição.
+Sejam bem vindos ao tutorial de instalação do ArchLinux da [He4rt Developers](https://discord.io/He4rt), aqui nos vamos desbravar essa distribuição temida por alguns e amada por muitos usuários do nosso querido pinguim e no final ter aquele sorriso que finalmente consguimos instalar esta magnifica distruibuição.
 
 ## Antes de começar
 
