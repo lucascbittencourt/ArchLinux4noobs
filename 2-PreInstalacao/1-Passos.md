@@ -22,6 +22,8 @@ Para verificar se nosso modo de boot é UEFI basta utilizarmos o seguinte comand
 # ls /sys/firmware/efi/efivars
 ```
 
+Se o arquivo não existir seu modo de boot é BIOS.
+
 ## Conectar a internet
 
 Tenha certeza que sua placa de rede esta ligada utilizando o comando ip link.
