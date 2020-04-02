@@ -104,7 +104,7 @@ Agora é só salvar, sair e vamos formatar as partições e ligar nossa swap:
 Pronto agora que ja particionamos e formatamos, vamos montar nossa partição.
 
 ```console
-# mount /dev/sdX1 /mnt
+# mount /dev/sda1 /mnt
 ```
 
 ### UEFI
