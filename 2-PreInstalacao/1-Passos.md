@@ -121,7 +121,7 @@ Agora é só salvar, sair e vamos formatar as partições:
 # mkfs.fat -F32 /dev/sda1
 # mkfs.ext4 /dev/sda2
 # mkswap /dev/sda3
-# swapon /dev/sd3
+# swapon /dev/sda3
 ```
 
 Pronto agora que ja particionamos e formatamos, vamos montar nossas partições.
