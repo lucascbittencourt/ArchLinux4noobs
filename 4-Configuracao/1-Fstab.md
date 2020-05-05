@@ -10,7 +10,7 @@ Como sabemos, o arquivo fstab pode ser utilizado para definir quais partições,
 # genfstab -U /mnt >> /mnt/etc/fstab
 ```
 
-*Obs: tenha certeza que você ligou a swap, se não ela não será definida neste arquivo.*
+_Obs: tenha certeza que você ligou a swap, se não ela não será definida neste arquivo._
 
 Para checarmos se deu tudo certo, é somente utilizar o seguinte comando.
 
@@ -54,7 +54,7 @@ Agora vamos configurar nosso relógio, primeiro vamos gerar um link da nossa reg
 # ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 ```
 
-*Obs: o horario de Brasília é definido como Sao_Paulo no ArchLinux.*
+_Obs: o horario de Brasília é definido como Sao_Paulo no ArchLinux._
 
 Agora vamos gerar o arquivo `/etc/adjtime`.
 
@@ -62,7 +62,7 @@ Agora vamos gerar o arquivo `/etc/adjtime`.
 # hwclock --systohc
 ```
 
-*obs: este comando também sincroniza com o horario da BIOS.*
+_obs: este comando também sincroniza com o horario da BIOS._
 
 Recomendo instalar o pacote `ntp` para sincronizar o relógio com a internet
 
@@ -100,7 +100,7 @@ Também podemos definir o layout do teclado do sistema.
 # echo KEYMAP=br-abnt2 >> /etc/vconsole.conf
 ```
 
-Agora ja configuramos onde nossas partições serão montadas, nosso relógio e nossa linguagem do sistema e te vejo no [próximo arquivo](./2-Network.md) para configurarmos a rede.
+Agora já configuramos onde nossas partições serão montadas, nosso relógio e nossa linguagem do sistema e te vejo no [próximo arquivo](./2-Network.md) para configurarmos a rede.
 
 ---
 

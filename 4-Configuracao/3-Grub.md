@@ -1,4 +1,4 @@
-# 03 - Grub, Xorg, Drivers Video e Audio
+# 03 - Grub, Xorg, Drivers de Vídeo e Áudio
 
 ## Grub
 
@@ -13,7 +13,7 @@ Para instalar o grub em modo de boot bios é bem simples, basta seguir os seguin
 # grub-install --target=i386-pc --recheck /dev/sda
 ```
 
-*obs: se a sua partição não for a /dev/sda você tem que substitui-la.*
+_obs: se a sua partição não for a /dev/sda você tem que substituí-la._
 
 ### UEFI
 
@@ -30,21 +30,21 @@ E agora vamos gerar nosso arquivo de configurações do boot:
 # grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-E pronto ja temos nosso grub instalado com sucesso. Se você deseja fazer dual boot com outro OS você precisa instalar o pacote `os-prober`.
+E pronto já temos nosso grub instalado com sucesso. Se você deseja fazer dual boot com outro OS você precisa instalar o pacote `os-prober`.
 
 ## Xorg
 
-Para instalarmos qualquer interface gráfica nós precisamos instalar o Xorg e fazer isto é bem simples.
+Para instalarmos qualquer interface gráfica nós precisaremos instalar o Xorg e fazer isto é bem simples.
 
 ```console
 # pacman -S xorg xorg-server xorg-drivers mesa libgl
 ```
 
-Pronto, ja instalamos o XORG.
+Pronto, já instalamos o Xorg.
 
-## Drivers de video
+## Drivers de vídeo
 
-Vamos instalar os drivers de video agora.
+Vamos instalar os drivers de vídeo agora.
 
 ### Intel
 
@@ -70,9 +70,9 @@ Vamos instalar os drivers de video agora.
 # pacman -S virtualbox-guest-utils virtualbox-guest-modules-arch mesa-libgl
 ```
 
-## Audio
+## Áudio
 
-Vamos instalar pacote que vai cuidar do nosso audio o `pulseaudio`.
+Vamos instalar pacote que vai cuidar do nosso áudio o `pulseaudio`.
 
 ```console
 # pacman -S pulseaudio pulseaudio-alsa
@@ -80,4 +80,4 @@ Vamos instalar pacote que vai cuidar do nosso audio o `pulseaudio`.
 
 Se você tiver problemas com chiados ou ruídos instale o pacote `pulseeffects` e habilite a função de inicializar junto ao sistema.
 
-E pronto, ja temos nosso sistema instalado e configurado mas antes de reiniciarmos nossa máquina vamos instalar um display manager e uma interface gráfica! Confira o [próximo arquivo](../5-GUI/1-GUI.md)
+E pronto, já temos nosso sistema instalado e configurado mas antes de reiniciarmos nossa máquina vamos instalar um display manager e uma interface gráfica! Confira o [próximo arquivo](../5-GUI/1-GUI.md)

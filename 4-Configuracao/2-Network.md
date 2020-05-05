@@ -1,6 +1,6 @@
 # 02 - Network e Usuários
 
-Para configurarmos a rede do nosso sistema precisamos instalar alguns pacotes.
+Para configurarmos a rede do nosso sistema precisaremos instalar alguns pacotes.
 
 ```console
 # pacman -S networkmanager network-manager-applet wpa_supplicant
@@ -26,7 +26,7 @@ Seu arquivo deve estar semelhante a isto.
 
 ![hosts](../images/Configuracao/hosts.png)
 
-*Obs: troque o arch4noobs pelo nome que você colocou no arquivo /etc/hostname.*
+_Obs: troque o arch4noobs pelo nome que você colocou no arquivo /etc/hostname._
 
 Pronto, agora vamos fazer com que nossa rede esteja funcionando quando iniciarmos nossa maquina.
 
@@ -42,7 +42,7 @@ Para definirmos a senha do usuário root é bem simples, basta utilizar commando
 # passwd
 ```
 
-*Obs: não esqueça essa senha !!!*
+_Obs: não esqueça essa senha !!!_
 
 Agora vamos criar nosso usuário e definir uma senha a ele.
 
@@ -51,7 +51,7 @@ Agora vamos criar nosso usuário e definir uma senha a ele.
 # passwd he4rt
 ```
 
-*Obs: adicionamos o grupo wheel ao usuário para restringir a execução do su.*
+_Obs: adicionamos o grupo wheel ao usuário para restringir a execução do su._
 
 E para terminarmos vamos adicionar nosso usuário aos sudoers e para isso vamos instalar o pacote `sudo`.
 

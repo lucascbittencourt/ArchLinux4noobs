@@ -17,7 +17,7 @@
 ### Introdução
 
 1. [Boas Vindas](./1-Introducao/1-Boas-vindas.md)
-2. [O que é ArchLInux ?](./1-Introducao/2-ArchLinux.md)
+2. [O que é ArchLinux ?](./1-Introducao/2-ArchLinux.md)
 
 ### Pré-Instalação
 
@@ -25,13 +25,13 @@
 
 ### Instalação
 
-1. [Pacotes essênciais](./3-Instalacao/1-Essencial.md)
+1. [Pacotes essenciais](./3-Instalacao/1-Essencial.md)
 
 ### Configuração
 
 1. [Fstab, Time zone e localização](./4-Configuracao/1-Fstab.md)
 2. [Network e usuários](./4-Configuracao/2-Network.md)
-3. [Grub, Xorg, Drivers Video e Audio](./4-Configuracao/3-Grub.md)
+3. [Grub, Xorg, Drivers de Vídeo e Áudio](./4-Configuracao/3-Grub.md)
 
 ### Interfaces Gráficas
 
@@ -50,6 +50,6 @@ são **extremamente apreciadas**.
 
 ## Autores
 
-* **Lucas Silva (LucasHe4rt)** - *Back-end Developer & Member of He4rt Developers* - [Twitter](https://twitter.com/lucashe4rt)
+- **Lucas Silva (LucasHe4rt)** - _Back-end Developer & Member of He4rt Developers_ - [Twitter](https://twitter.com/lucashe4rt)
 
 <p align="center">Made with 💜</p>

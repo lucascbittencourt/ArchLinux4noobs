@@ -10,7 +10,7 @@ Por padrão no ambiente live do Arch o padrão do teclado é US (se o seu for US
 # loadkeys br-abnt2
 ```
 
-Este comando serve para carregarmos qualquer layout disponivel. Verifique os modelos utilizando seguinte comando `ls /usr/share/kbd/keymaps/**/*.map.gz`.
+Este comando serve para carregarmos qualquer layout disponível. Verifique os modelos utilizando o seguinte comando `ls /usr/share/kbd/keymaps/**/*.map.gz`.
 
 ## Modo de boot
 
@@ -34,7 +34,7 @@ Tenha certeza que sua placa de rede esta ligada utilizando o comando ip link.
 
 ### Conexão cabeada
 
-Se você esta utilizando uma conexão cabeada, provavelmente, você já tem acesso a internet.
+Se você está utilizando uma conexão cabeada, provavelmente, você já tem acesso a internet.
 
 ### Conexão sem fio
 
@@ -44,7 +44,7 @@ Para se conectar a internet por uma rede sem fio basta utilizar o seguinte coman
 # wifi-menu
 ```
 
-Escolha sua rede e conecte-se e em seguida utilize o comando ping para testar.
+Escolha sua rede e conecte-se, em seguida utilize o comando ping para testar.
 
 ```console
 # ping google.com
@@ -62,7 +62,7 @@ Vai retornar algo parecido com isto (resultados terminados em room, loop ou airo
 
 ![fdisk-resultado](../images/PreInstalacao/fdisk.png)
 
-*A quantidade de discos pode variar de acordo com quantos discos você tem em sua maquina.*
+_A quantidade de discos pode variar de acordo com quantos discos você tem em sua máquina._
 
 No meu caso irei instalar o arch no disco `/dev/sda`.
 
@@ -70,7 +70,7 @@ Nós precisamos de uma partição para o diretório raiz `/`, porém se o modo d
 
 ![Tabela de montagem](../images/PreInstalacao/tabelaMontagem.png)
 
-Agora que ja sabemos os pontos de montagem, podemos particionar o disco.
+Agora que já sabemos os pontos de montagem, podemos particionar o disco.
 
 ```console
 # cfdisk /dev/sda
@@ -82,7 +82,7 @@ Algo desse tipo pode retornar para você:
 
 O é gpt para UEFI e dos para BIOS.
 
-*Obs: eu prefiro usar o cfdisk para fazer as partições mas se quiser usar o fdisk não tem problema.*
+_Obs: eu prefiro usar o cfdisk para fazer as partições mas se quiser usar o fdisk não tem problema._
 
 ### BIOS
 
@@ -124,7 +124,7 @@ Agora é só salvar, sair e vamos formatar as partições:
 # swapon /dev/sda3
 ```
 
-Pronto agora que ja particionamos e formatamos, vamos montar nossas partições.
+Pronto, agora que já particionamos e formatamos, vamos montar nossas partições.
 
 ```console
 # mount /dev/sda2 /mnt
