@@ -52,4 +52,18 @@ Pronto, com o gdm instalado e habilitado, podemos instalar o Gnome.
 # pacman -S gnome gnome-terminal nautilus gnome-tweaks gnome-control-center adwaita-icon-theme
 ```
 
+## I3wm
+
+Para instalar o I3wm você pode escolher qualquer um dos display managers citados acima e executar o seguinte comando para instalação.
+
+```console
+# pacman -S i3 i3status dmenu xterm
+```
+
+*Obs: o `xterm` um emulador de terminal e pode ser substituido por outro de sua preferencia.*
+
+Para uma melhor abordagem desta poderosa opção recomendamos que acompanhe o [wm4noobs](https://github.com/i386angel/wm4noobs) que irá explicar passo a passo como se tornar um mago do Linux.
+
+
+
 Agora que você já escolheu sua interface gráfica e instalou, basta pressionar `CTRL + D` para desmontar a partição, reiniciar a máquina, remover a mídia de instalação e pronto, você acabou de instalar o ArchLinux. Espero que tenham gostado do passo a passo !
