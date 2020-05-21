@@ -5,21 +5,22 @@ Bom, agora chegamos na parte que de fato vamos instalar nosso sistema, vamos em 
 ## Mirrors
 
 Os mirrors estão localizados em `/etc/pacman.d/mirrorlist` e são utilizados para fazermos os downloads dos pacotes no nosso sistema, então você pode querer alterar e
-deixar o mirrors brasileiros com maior prioridade pois quando instalarmos nosso sistema essa lista de mirrors será copiada. Eu não tenho o costume de alterar os mirrors, é mais uma coisa pessoal, mas alterá-los é bem simples, vamos lá.
+deixar o mirrors brasileiros com maior prioridade pois quando instalarmos nosso sistema essa lista de mirrors será copiada.
 
-Escolha um editor de texto que você deseja, no meu caso usarei o vim.
+Para fazer a alteração é bem simples, vamos usar o `reflector` para isso mas antes iremos instala-lo.
 
 ```console
-# vim /etc/pacman.d/mirrorlist
+# pacman -Sy reflector
 ```
 
-_Obs: esta lista de mirrors é gerada de acordo com a velocidade de sincronização de quando a ISO foi criada._
+Depois de termos instalado o reflector, iremos executar o seguinte comando:
 
-Estando dentro do arquivo de mirrors, agora basta somente você mover os mirrors desejados para cima ou comentar os outros espelhos, no meu caso vou movê-los para cima.
+```console
+# reflector --country Brazil --age 24 --sort rate --save /etc/pacman.d/mirrorlist
+```
+*Obs: caso queria trocar o país de onde os mirrors serão pegos basta alterar no comando* 
 
-Depois de movê-los sua lista deve parecer com isto.
-
-![Mirror list](../images/Instalacao/mirrors.png)
+Esse comando irá trazer pra gente todos os mirros do Brasil pela velocidade de download e irá sobrescrever o arquivo dos mirrors.
 
 Agora com nossos mirrors brasileiros com maior prioridade, podemos continuar com a instalação.
 
@@ -44,3 +45,5 @@ Esta parte costuma demorar um pouco, isso vai de acordo com a sua internet, ent�
 ### Referências
 
 [Wiki - Instalação](https://wiki.archlinux.org/index.php/Installation_guide#Installation)
+
+[Wiki - Reflector](https://wiki.archlinux.org/index.php/Reflector_(Portugu%C3%AAs))
