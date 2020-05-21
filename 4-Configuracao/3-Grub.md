@@ -34,41 +34,21 @@ E pronto já temos nosso grub instalado com sucesso. Se você deseja fazer dual 
 
 ## Xorg
 
-Para instalarmos qualquer interface gráfica nós precisaremos instalar o Xorg e fazer isto é bem simples.
+Para instalarmos qualquer interface gráfica nós precisaremos instalar o Xorg e os drivers de video e fazer isto é bem simples.
 
 ```console
 # pacman -S xorg xorg-server xorg-drivers mesa libgl
 ```
 
-Pronto, já instalamos o Xorg.
-
-## Drivers de vídeo
-
-Vamos instalar os drivers de vídeo agora.
-
-### Intel
+Se você esta instalando em uma maquina virtual é importante baixar este driver junto com os outros.
 
 ```console
-# pacman -S xf86-video-intel
+# pacman -S virtualbox-guest-utils
 ```
 
-### Nvidia
+Pronto, já instalamos o Xorg e os drivers de video.
 
-```console
-# pacman -S nvidia nvidia-libgl
-```
 
-### AMD
-
-```console
-# pacman -S xf86-video-amdgpu
-```
-
-### Virtual box
-
-```console
-# pacman -S virtualbox-guest-utils virtualbox-guest-modules-arch mesa-libgl
-```
 
 ## Áudio
 
