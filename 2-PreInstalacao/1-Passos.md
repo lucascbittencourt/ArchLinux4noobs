@@ -41,7 +41,7 @@ Se você está utilizando uma conexão cabeada, provavelmente, você já tem ace
 Para se conectar a internet por uma rede sem fio basta utilizar o seguinte comando:
 
 ```console
-# wifi-menu
+# iwctl station nomeDaPlacaDeRedeWireless connect SSID
 ```
 
 Escolha sua rede e conecte-se, em seguida utilize o comando ping para testar.
